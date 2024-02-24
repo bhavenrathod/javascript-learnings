@@ -7,7 +7,8 @@ https://tc39.es/ecma262/
 https://developer.mozilla.org/en-US/
 */
 
-// Data Types
+/***************DATA TYPES******************/
+// 1. PRIMITIVE OR CALL BY VALUE DATA TYPES
 /*
 string => " "
 number => 2^53 
@@ -16,8 +17,13 @@ boolean => true / false
 undefined => it means that no value is assigned to the variable
 null => it is a standalone value
 symbol => it is used to identify the uniqueness of the component
-
 object
+*/
+// 2. NON-PRIMITIVE OR CALL BY REFERENCE DATA TYPES
+/*
+arrays 
+objects
+functions
 */
 
 // let name = "bhaven";
