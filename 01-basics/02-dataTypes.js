@@ -1,5 +1,4 @@
 "use strict"; // This line treats all JS code as newer version. Though now-a-days we don't need to write it the file
-
 //alert(3 + 3) This would normally give a popup in browser answering 6 but since we are using nodejs here we get an ReferenceError
 
 /* 2 main doumentations for javascript
