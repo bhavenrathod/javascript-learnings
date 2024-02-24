@@ -20,13 +20,17 @@ symbol => it is used to identify the uniqueness of the component
 object
 */
 
-let name = "bhaven";
-let age = 21;
-let isLoggedIn = true;
-let state;
+// let name = "bhaven";
+// let age = 21;
+// let isLoggedIn = true;
+// let state;
 
-console.log(typeof name);
-console.log(typeof age);
-console.log(typeof isLoggedIn);
-console.log(typeof state); //the output will be undefined
-console.log(typeof null); // the output will be object
+// console.log(typeof name);
+// console.log(typeof age);
+// console.log(typeof isLoggedIn);
+// console.log(typeof state); //the output will be undefined
+// console.log(typeof null); // the output will be object
+
+const id = Symbol("123");
+const id1 = Symbol("123");
+console.log(id === id1); // outputs false because of the unique symbols returned to the variable
