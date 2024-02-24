@@ -8,6 +8,9 @@ https://developer.mozilla.org/en-US/
 
 /***************DATA TYPES******************/
 // 1. PRIMITIVE OR CALL BY VALUE DATA TYPES
+
+//Stack memory is used for this data type
+
 /*
 string => " "
 number => 2^53 
@@ -19,6 +22,9 @@ symbol => it is used to identify the uniqueness of the component
 object
 */
 // 2. NON-PRIMITIVE OR CALL BY REFERENCE DATA TYPES
+
+//Heap memory is used for this data type
+
 /*
 arrays 
 objects
