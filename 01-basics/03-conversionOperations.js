@@ -37,5 +37,26 @@ let numberIsLogged = Boolean(isLogged);
 
 let num = 66;
 let convertedString = String(num);
-console.log(convertedString); //the converted number will the same but it will be a string
-console.log(typeof convertedString);
+// console.log(convertedString); //the converted number will the same but it will be a string
+// console.log(typeof convertedString);
+
+/*******************************OPERATIONS*********************************/
+
+// console.log(2 + 2);
+// console.log(2 - 2);
+// console.log(2 / 2);
+// console.log(2 * 2);
+// console.log(2 % 2);
+// console.log(2 ** 2);
+
+let str1 = "hello";
+let str2 = " bhaven";
+
+let str3 = str1 + str2;
+// console.log(str3); //output will be "hello bhaven"
+
+console.log("1" + 2); //output will be 12
+console.log(1 + "2"); //output will be 12
+console.log("1" + 2 + 2); // output will be 122 because the first occuring type is a string
+console.log(1 + 2 + "2"); // output will be 32 because the first occuring type is a number
+// detailed discussion - https://tc39.es/ecma262/#sec-toprimitive
