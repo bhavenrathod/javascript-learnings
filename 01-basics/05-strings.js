@@ -15,12 +15,12 @@ const surname = new String("rathod"); //another way to declare string
 // console.log(surname.charAt(2));
 // console.log(surname.indexOf("r"));
 
-// const str = surname.substring(0, 4); // negative values are not allowed
+const str = surname.substring(0, 4); // negative values are not allowed
 // console.log(str);
-// const str1 = surname.slice(-5, 4); // negative values are allowed and negative starts form last index
+const str1 = surname.slice(-5, 4); // negative values are allowed and negative starts form last index
 // console.log(str1);
 
-// const newStr = "    game     ";
+const newStr = "    game     ";
 // console.log(newStr);
 // console.log(newStr.trim()); // eliminates white spaces and line terminators before and after string
 // console.log(newStr.trimStart()); // eliminates white spaces and line terminators before string
